@@ -24,6 +24,14 @@
 //     }
 // }
 
+class Counter{
+    int count = 0;
+    synchronized void increment(){
+        count++;
+    }
+
+}
+
 public class Threads {
     public static void main(String[] args) {
         // What is a thread?
@@ -73,5 +81,26 @@ public class Threads {
         Thread t2 = new Thread(objB);
         t1.start();
         t2.start();
+
+        Counter counter = new Counter();
+        Thread t3 = new Thread(() -> {
+            for(int i=0;i<1000;i++){
+                counter.increment();
+            }
+        });
+        Thread t4 = new Thread(() -> {
+            for(int i=0;i<1000;i++){
+                counter.increment();
+            }
+        });
+        t3.start();
+        t4.start();
+        try {
+            t3.join(); // Ensure t3 completes before printing the count
+            t4.join(); // Ensure t4 completes before printing the count
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Final count: " + counter.count);
     }
 }
