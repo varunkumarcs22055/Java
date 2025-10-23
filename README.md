@@ -61,7 +61,10 @@ This repository is a collection of Java programs demonstrating core concepts, ob
   - `AdvCalc.java` - Advanced calculator with power and square root
 
 ### 9. **Multithreading**
-- [`Threads.java`](Threads.java) - Thread creation, execution, and synchronization
+- [`Threads.java`](Threads.java) - Thread creation, execution, synchronization, and `.join()` method
+
+### 10. **Stream API**
+- [`StreamAPi.java`](StreamAPi.java) - Stream API for functional-style operations (filter, map, reduce)
 
 ## 📁 Project Structure
 
@@ -94,6 +97,7 @@ Java/
 ├── Exception2.java
 ├── Packages.java
 ├── Threads.java
+├── StreamAPi.java                # Stream API
 ├── thisandsuper.java
 └── other/
     └── tools/
@@ -141,6 +145,7 @@ Java/
 - ✅ Package creation and management
 - ✅ Multithreading concepts and implementation
 - ✅ Functional interfaces and lambda expressions
+- ✅ Stream API for functional-style collection processing
 - ✅ Arrays and string manipulation
 
 ## 🎓 Progress
@@ -151,4 +156,4 @@ This repository represents my journey in learning Java from basics to advanced c
 
 **Author:** Varun Kumar  
 **Repository:** [github.com/varunkumarcs22055/Java](https://github.com/varunkumarcs22055/Java)  
-**Last Updated:** October 22, 2025
+**Last Updated:** October 23, 2025
