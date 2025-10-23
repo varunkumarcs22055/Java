@@ -66,6 +66,10 @@ This repository is a collection of Java programs demonstrating core concepts, ob
 ### 10. **Stream API**
 - [`StreamAPi.java`](StreamAPi.java) - Stream API for functional-style operations (filter, map, reduce)
 
+### 11. **Modern Java Features**
+- [`ChangesNew.java`](ChangesNew.java) - New Java features (var keyword, local variable type inference, sealed classes)
+- [`Sorting.java`](Sorting.java) - Sorting algorithms and implementations
+
 ## 📁 Project Structure
 
 ```
@@ -98,6 +102,8 @@ Java/
 ├── Packages.java
 ├── Threads.java
 ├── StreamAPi.java                # Stream API
+├── Sorting.java                  # Sorting algorithms
+├── ChangesNew.java               # Modern Java features
 ├── thisandsuper.java
 └── other/
     └── tools/
@@ -146,7 +152,9 @@ Java/
 - ✅ Multithreading concepts and implementation
 - ✅ Functional interfaces and lambda expressions
 - ✅ Stream API for functional-style collection processing
+- ✅ Modern Java features (var keyword, type inference)
 - ✅ Arrays and string manipulation
+- ✅ Sorting algorithms
 
 ## 🎓 Progress
 
