@@ -70,6 +70,24 @@ This repository is a collection of Java programs demonstrating core concepts, ob
 - [`ChangesNew.java`](ChangesNew.java) - New Java features (var keyword, local variable type inference, sealed classes)
 - [`Sorting.java`](Sorting.java) - Sorting algorithms and implementations
 
+### 12. **Unit Testing with JUnit**
+- [`JUNIT/`](JUNIT/) - JUnit testing basics
+  - `src/Reverse.java` - Reverse string functionality
+  - `src/ReverseTest.java` - Unit tests for Reverse class
+- [`Junit5/`](Junit5/) - Advanced JUnit 5 with Maven project structure
+  - `src/main/java/org/example/` - Main application classes
+    - `Calc.java` - Calculator implementation
+    - `Reverse.java` - String reversal
+    - `Shapes.java` - Geometric shapes
+    - `Simple.java` - Simple examples
+    - `testArrays.java` - Array operations
+  - `src/test/java/org/example/` - JUnit 5 test classes
+    - `CalcTest.java` - Calculator tests
+    - `ReverseTest.java` - Reverse function tests
+    - `ShapesTest.java` - Shapes tests
+    - `testArraysTest.java` - Array tests
+  - `pom.xml` - Maven configuration
+
 ## 📁 Project Structure
 
 ```
@@ -105,6 +123,26 @@ Java/
 ├── Sorting.java                  # Sorting algorithms
 ├── ChangesNew.java               # Modern Java features
 ├── thisandsuper.java
+├── JUNIT/                        # JUnit testing basics
+│   └── src/
+│       ├── Reverse.java
+│       └── ReverseTest.java
+├── Junit5/                       # Advanced JUnit 5 with Maven
+│   ├── pom.xml
+│   └── src/
+│       ├── main/java/org/example/
+│       │   ├── Calc.java
+│       │   ├── Reverse.java
+│       │   ├── Shapes.java
+│       │   ├── Simple.java
+│       │   ├── testArrays.java
+│       │   └── Main.java
+│       └── test/java/org/example/
+│           ├── CalcTest.java
+│           ├── ReverseTest.java
+│           ├── ShapesTest.java
+│           ├── CoursePTest.java
+│           └── testArraysTest.java
 └── other/
     └── tools/
         ├── Calc.java             # Custom package
@@ -155,6 +193,9 @@ Java/
 - ✅ Modern Java features (var keyword, type inference)
 - ✅ Arrays and string manipulation
 - ✅ Sorting algorithms
+- ✅ Unit testing with JUnit 4 and JUnit 5
+- ✅ Test-driven development practices
+- ✅ Maven project structure and management
 
 ## 🎓 Progress
 
@@ -164,4 +205,4 @@ This repository represents my journey in learning Java from basics to advanced c
 
 **Author:** Varun Kumar  
 **Repository:** [github.com/varunkumarcs22055/Java](https://github.com/varunkumarcs22055/Java)  
-**Last Updated:** October 23, 2025
+**Last Updated:** October 25, 2025
