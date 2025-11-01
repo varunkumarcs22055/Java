@@ -1,4 +1,4 @@
-public class Laptop{
+class Laptop{
     String brand;
     String model;
 }
