@@ -70,7 +70,18 @@ This repository is a collection of Java programs demonstrating core concepts, ob
 - [`ChangesNew.java`](ChangesNew.java) - New Java features (var keyword, local variable type inference, sealed classes)
 - [`Sorting.java`](Sorting.java) - Sorting algorithms and implementations
 
-### 12. **Unit Testing with JUnit**
+### 12. **Data Structures & Algorithms (DSA)**
+- [`DSA/`](DSA/) - Comprehensive DSA implementations
+  - `ADT.java` - Abstract Data Types
+  - `Stack.java` - Stack implementation
+  - `Queue.java` - Queue implementation
+  - `LinkedList.java` - Linked list operations
+  - `BinaryTree.java` - Binary tree structure
+  - `linearSearch.java` - Linear search algorithm
+  - `binarySearch.java` - Binary search algorithm
+  - `Sorting.java` - Various sorting algorithms
+
+### 13. **Unit Testing with JUnit**
 - [`JUNIT/`](JUNIT/) - JUnit testing basics
   - `src/Reverse.java` - Reverse string functionality
   - `src/ReverseTest.java` - Unit tests for Reverse class
@@ -123,6 +134,15 @@ Java/
 ├── Sorting.java                  # Sorting algorithms
 ├── ChangesNew.java               # Modern Java features
 ├── thisandsuper.java
+├── DSA/                          # Data Structures & Algorithms
+│   ├── ADT.java
+│   ├── Stack.java
+│   ├── Queue.java
+│   ├── LinkedList.java
+│   ├── BinaryTree.java
+│   ├── linearSearch.java
+│   ├── binarySearch.java
+│   └── Sorting.java
 ├── JUNIT/                        # JUnit testing basics
 │   └── src/
 │       ├── Reverse.java
@@ -191,6 +211,8 @@ Java/
 - ✅ Functional interfaces and lambda expressions
 - ✅ Stream API for functional-style collection processing
 - ✅ Modern Java features (var keyword, type inference)
+- ✅ Data Structures (Stack, Queue, LinkedList, Binary Tree)
+- ✅ Algorithms (Linear Search, Binary Search, Sorting)
 - ✅ Arrays and string manipulation
 - ✅ Sorting algorithms
 - ✅ Unit testing with JUnit 4 and JUnit 5
@@ -205,4 +227,4 @@ This repository represents my journey in learning Java from basics to advanced c
 
 **Author:** Varun Kumar  
 **Repository:** [github.com/varunkumarcs22055/Java](https://github.com/varunkumarcs22055/Java)  
-**Last Updated:** October 25, 2025
+**Last Updated:** November 1, 2025
